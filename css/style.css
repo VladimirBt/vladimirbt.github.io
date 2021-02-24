@@ -180,12 +180,12 @@ body{
 }
 
 .menu__link:hover:before{
-    width: 52%;
+    width: 50%;
     transform: translateX(100%);
 }
 
 .menu__link:hover:after{
-    width: 52%;
+    width: 50%;
     transform: translateX(-100%);
 }
 
