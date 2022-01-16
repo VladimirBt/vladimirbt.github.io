@@ -54,7 +54,7 @@ if($('.slider__body').length>0){
 
 // timer
 
-let deadLine = '2022-01-01';
+let deadLine = '2022-04-01';
 
 function getTimerRemaining(endtime) {
     let t = Date.parse(endtime) - Date.parse(new Date()),
