@@ -1,0 +1,306 @@
+/* @import url("reset.css"); */
+
+/* Локальне підключення шрифтів */
+/* @import url("fonts.css"); */
+
+/* Підключення віддалених шрифтів */
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600;700&display=swap"); */
+
+/* Значення за замовченням  */
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	/* font-family: "InterDisplay"; */
+	font-family: "Montserrat", sans-serif;
+	font-size: 16px;
+	background-color: #3ab87f60;
+	padding:  50px 15px;
+	overflow-x: hidden;
+}
+/* ======================================================== */
+
+.title {
+	font-weight: 600;
+	font-size: 36px;
+	text-align: center;
+	line-height: 1.5;
+	color: #fffffff6;
+	border: 1px solid #77608d;
+	background-color: #22b5d6;
+	padding-block: 20px;
+	border-radius: 4px;
+	color: d9d9d9;
+
+	text-shadow: -1px -1px 1px rgba(255, 255, 255, .1), 1px 1px 1px rgba(0, 0, 0, .5);
+}
+
+h2 {
+	font-weight: 600;
+	font-size: 28px;
+	padding-block: 60px 10px;
+	color: #323030c7;
+	padding-left: 70px;
+	text-shadow: 1px 2px 2px rgb(31, 31, 31);
+}
+
+.box {
+	margin-block: 10px;
+	height: 80px;
+	border-radius: 8px;
+	width: 100%;
+	background-color: #34f46e;
+
+}
+
+
+
+
+.box-2 {
+	margin-block: 10px;
+	height: 800px;
+	border-radius: 8px;
+	width: 100%;
+	background-color: #34f46e;
+}
+
+.border-1 {
+	border: 3px solid #22b5d6;
+}
+
+.border-2 {
+background-color: #f03f27;
+border: 10px dashed #afd622;
+}
+
+
+
+.border-3 {
+	background-color: #dff027;
+		border: 10px double #afd622;
+}
+
+.border-4 {
+	background-color: #27a6f0;
+	border: 10px dotted #afd622;
+}
+.border-5 {
+	background-color: #f02795;
+	border-top: 10px solid #224cd6;
+	border-bottom: 10px solid #d67022;
+	border-right: 10px solid #22c7d6;
+	border-left: 10px solid #afd622;
+}
+
+
+
+
+.outline {background-color: #224cd6;
+	outline: 10px solid red;
+	outline-offset: 5px;
+}
+
+
+
+
+.box-shadow-1 {
+	
+}
+.box {}
+
+.box-shadow-1 {
+	box-shadow: 4px 5px 10px rgba(0, 0, 0, 0.527);
+}
+
+
+
+.background-1 {
+	background: #afd622 url("../img/three-shots-snake-7716269_1280.jpg") center / 200px  ;
+}
+.background-2 {
+	background: #afd622 url("../img/three-shots-snake-7716269_1280.jpg") center / cover no-repeat ;
+}
+.background-3 {
+	background: #afd622 url("../img/three-shots-snake-7716269_1280.jpg") center / contain no-repeat  ;
+}
+.background-4 {
+	background: #afd622 url("../img/three-shots-snake-7716269_1280.jpg") center / cover no-repeat  ;
+	background-clip: text;
+	font-size: 400px;
+	font-weight: 700;
+	color: transparent;
+	text-align: center;
+	text-transform: uppercase;
+	vertical-align: middle;
+}
+
+.background-5 {
+	background: #afd622 url("../img/three-shots-snake-7716269_1280.jpg") center / cover no-repeat;
+	background-attachment: fixed;
+}
+
+
+//========================================================================================================================================================
+
+.furniro {
+	height: 316px;
+	width: 100%;
+	background: #000;
+	margin-bottom: 50px;
+}
+
+
+
+.furniro__body {
+	height: 316px;
+	width: 100%;
+	background: #000 url("../img/furniro-bg.jpg") center / cover no-repeat;
+	font-family: "Poppins", sans-serif;
+	text-align: center;
+	padding-top: 61px;
+	
+}
+
+.furniro__logo {
+	height: 77px;
+	margin: 0 auto;
+	background: url('../img/furniro-logo.svg') center no-repeat;
+}
+
+.furniro__title {
+	font-weight: 500;
+	font-size: 48px;
+	color: #000;
+	line-height: 72px;
+}
+
+.furniro__subtitle {
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #000;
+	word-spacing: 30px;
+	background: url("../img/furniro-arrow.svg")  49.3% no-repeat;
+
+}
+.furniro__subtitle span {
+	font-weight: 500;
+	
+	
+}
+
+
+.web-designer {
+	
+}
+
+.web-designer__body {
+	height: 342px;
+	width: 100%;
+	background: #030303 url("../img/web-desinger.png") center / cover no-repeat;
+	text-align: center;
+	padding-top: 96px;
+	padding-bottom: 85px;
+
+}
+
+.web-designer__title {
+	font-family: "Barlow", sans-serif;
+	font-weight: 800;
+	line-height: 96;
+	font-size: 64px;
+	line-height: 150%;
+	text-transform: uppercase;
+	color: #f9efec;
+	margin-bottom: 17px;
+}
+
+.web-designer__btn {
+	
+}
+
+.web-designer__link {
+	font-family: "Barlow", sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 150%;
+	text-transform: capitalize;
+	text-align: center;
+	color: #fff;
+	padding: 13px 78px;
+	background-color: #0a84ff;
+	border-radius: 12px;
+	transition: all 0.3s ease-in;
+}
+.web-designer__link:hover {
+	box-shadow: 1px 5px 10px rgba(138, 160, 255, 0.526);
+	background-color: #2a94fe;
+	border-radius: 12px;
+}
+
+
+
+
+
+
+.webdesigner-content {
+	border-radius: 12px;
+	padding: 32px;
+	width: 834px;
+	background-color: #1a1a1a;;
+	margin: 0 auto;
+
+}
+
+
+.webdesigner-content {}
+
+.webdesigner-content__title {
+	font-family: "Barlow", sans-serif;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 150%;
+	text-transform: uppercase;
+	color: #f9efec;
+	margin-bottom: 12px;
+}
+
+.webdesigner-content__text,
+.webdesigner-content__item {
+	font-family: "Barlow", sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 150%;
+	color: #b3b3b2;
+}
+
+.webdesigner-content__item,
+.webdesigner-content__text:not(:last-child) p {
+	padding-bottom: 24px;
+}
+
+.webdesigner-content__list {}
+
+.webdesigner-content__item {
+	background: url('../img/twemoji_diamond.svg') 0 4px no-repeat;
+	padding-left: 26px;
+	min-height: 16px;
+}
+
+
+
+
+footer {
+	margin-top: 40px;
+	padding-block: 40px;
+	width: 100%;
+	background-color: #354747;
+	text-align: center;
+	color: #fff;
+	font-family: "Barlow", sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 150%;
+}
